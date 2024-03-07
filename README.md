@@ -56,4 +56,12 @@ You have been briefed to complete a tax calculator for an individual. The applic
 * Allow for entering the Postal code and annual income on the front end and submitting
 * Store the calculated value to SQL Server with date/time and the two fields entered
 * Security is not required but feel free to show off
-* Server side should be REST API’s
+* Server side should be REST API’s.
+
+
+**Additional comments**
+For lack of more time I submitted it, but other things I could have done are:
+* Adding more unit tests for PostalCodeService.cs and HistoryService.cs on the backend.
+* Adding unit tests for CalculatorHttpService.cs on the front end.
+* Getting the right formula for progressive taxing.
+
